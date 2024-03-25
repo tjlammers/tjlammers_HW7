@@ -10,30 +10,34 @@
     <h2>Page 2: Education and Classes</h2>
     
     <form action="tjlammers_page3.html" method="post">
-        <label for="year">I am finishing my: (required field)</label><br>
-        <input type="radio" id="freshman" name="year" value="Freshman" required>
-        <label for="freshman">1st year at Iowa</label><br>
-        <input type="radio" id="sophomore" name="year" value="Sophomore" required>
-        <label for="sophomore">2nd year at Iowa</label><br>
-        <input type="radio" id="junior" name="year" value="Junior" required>
-        <label for="junior">3rd year at Iowa</label><br>
-        <input type="radio" id="senior" name="year" value="Senior" required>
-        <label for="senior">4th year at Iowa</label><br>
-        <input type="radio" id="graduate" name="year" value="Graduate Student" required>
-        <label for="graduate">5th or more year at Iowa</label><br><br>
+        <fieldset>
+            <legend>I am finishing my:</legend>
+            <input type="radio" id="freshman" name="year" value="Freshman" required>
+            <label for="freshman">1st year at Iowa</label><br>
+            <input type="radio" id="sophomore" name="year" value="Sophomore" required>
+            <label for="sophomore">2nd year at Iowa</label><br>
+            <input type="radio" id="junior" name="year" value="Junior" required>
+            <label for="junior">3rd year at Iowa</label><br>
+            <input type="radio" id="senior" name="year" value="Senior" required>
+            <label for="senior">4th year at Iowa</label><br>
+            <input type="radio" id="graduate" name="year" value="Graduate Student" required>
+            <label for="graduate">5th or more year at Iowa</label><br><br>
+        </fieldset>
         
-        <label for="classes">BAIS core class I have completed</label><br>
-        <input type="checkbox" id="IS" name="classes" value="IS">
-        <label for="IS">Information Systems</label><br>
-        <input type="checkbox" id="CompThinking" name="classes" value="CompThinking">
-        <label for="CompThinking">Computational Thinking</label><br>
-        <input type="checkbox" id="Database Management" name="classes" value="Database Management">
-        <label for="Database Management">Database Management</label><br>
-        <input type="checkbox" id="Wrangling" name="classes" value="Wrangling">
-        <label for="Wrangling">Data Wrangling</label><br>
-        <input type="checkbox" id="None" name="classes" value="None">
-        <label for="None">None of the above</label><br>
-        <br>
+        <fieldset>
+            <legend>BAIS core class I have completed:</legend>
+            <input type="checkbox" id="IS" name="classes" value="IS">
+            <label for="IS">Information Systems</label><br>
+            <input type="checkbox" id="CompThinking" name="classes" value="CompThinking">
+            <label for="CompThinking">Computational Thinking</label><br>
+            <input type="checkbox" id="DatabaseManagement" name="classes" value="DatabaseManagement">
+            <label for="DatabaseManagement">Database Management</label><br>
+            <input type="checkbox" id="Wrangling" name="classes" value="Wrangling">
+            <label for="Wrangling">Data Wrangling</label><br>
+            <input type="checkbox" id="None" name="classes" value="None">
+            <label for="None">None of the above</label><br>
+            <br>
+        </fieldset>
         
         <button type="submit">Next</button>
     </form>
