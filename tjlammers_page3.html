@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Survey - Page 3</title>
+    <script src="https://kit.fontawesome.com/eefc8eab6f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <h2>Page 3: Additional Questions</h2>
@@ -19,8 +21,12 @@
             <option value="Native American or American Indian">Native American or American Indian</option>
             <option value="Other">Other</option>
         </select><br><br>
-        
-        <label for="gender">What is your gender?</label><br>
+            Select your gender:
+              <span class="tooltip">
+                <i class="fa-solid fa-circle-info fontawesome"></i>
+                <span class="tooltip tooltiptext">Identifying your gender helps enhance diversity and inclusivity in the future by addressing gender results.</span>
+            </span>
+          </p>
         <input type="radio" id="male" name="gender" value="Male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="Female">
